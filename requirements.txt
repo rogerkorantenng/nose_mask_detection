@@ -19,3 +19,4 @@ threadpoolctl==2.1.0
 Werkzeug==1.0.1
 matplotlib==3.5.1
 plotly==5.6.0
+scikit-image==0.19.2
