@@ -170,13 +170,13 @@ print('test_accuracy: ',test_accuracy)
 
 model.save('./roger.h5')
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
-!cp roger.h5 ./drive/MyDrive/roger.h5
+#!cp roger.h5 ./drive/MyDrive/roger.h5
 
-drive.flush_and_unmount()
-print('All changes made in this colab session should now be visible in Drive.')
+#drive.flush_and_unmount()
+#print('All changes made in this colab session should now be visible in Drive.')
 
 
 if __name__ == '__main__':
