@@ -17,21 +17,6 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
-curl 'https://storage.googleapis.com/kaggle-data-sets/778086/1339204/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20220218%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220218T142513Z&X-Goog-Expires=259199&X-Goog-SignedHeaders=host&X-Goog-Signature=6e8298ec563e5118d4f3dba032c12d6346118c6e63e1ae4cae9cbe4f31cb68910fc004e05a24b153c2a89cf44ef40335f3ecf6261c2cb4488a762764e40d97c2465660488e5e8253aa27f5d7734cc34a463c52981f8ceadd6e6dfbd3b7751457a33b7ab1b25bfb1e858b94f02e7a6dfe3828045f8c1c9b42454a5ef71fce373563c53d8945884c6c18093b03501e6b10c6912faf0b5f7ece0704e0da9970c013f99166edfa9c66387bf090eeab1630434a98bab717a155728dffdcea1be862ae9b853c9e585127062c6d24836fb386db6a03e10f9bdf77c0b8664105e10dd2ceee9951f9b411a29a1b4ee80f242a2fc0842adc52aff8fbd1d2ff955ddbf5a0f0' \
-  -H 'authority: storage.googleapis.com' \
-  -H 'upgrade-insecure-requests: 1' \
-  -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Mobile Safari/537.36' \
-  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
-  -H 'sec-fetch-site: cross-site' \
-  -H 'sec-fetch-mode: navigate' \
-  -H 'sec-fetch-user: ?1' \
-  -H 'sec-fetch-dest: document' \
-  -H 'sec-ch-ua: "Opera";v="83", "Chromium";v="97", ";Not A Brand";v="99"' \
-  -H 'sec-ch-ua-mobile: ?1' \
-  -H 'sec-ch-ua-platform: "Android"' \
-  -H 'referer: https://www.kaggle.com/' \
-  -H 'accept-language: en-US,en;q=0.9' \
-  --compressed -o data.zip
 
 unzip data.zip
 
