@@ -18,7 +18,7 @@ curl 'https://storage.googleapis.com/kaggle-data-sets/778086/1339204/bundle/arch
   -H 'sec-ch-ua-platform: "Android"' \
   -H 'referer: https://www.kaggle.com/' \
   -H 'accept-language: en-US,en;q=0.9' \
-  --compressed
+  --compressed -o data.zip
   
   After successfully downloading dataset we can now unzip and extract by using unzip data.zip
   
