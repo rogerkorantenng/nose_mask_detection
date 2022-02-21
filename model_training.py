@@ -166,7 +166,5 @@ model.save('./roger.h5')
 #print('All changes made in this colab session should now be visible in Drive.')
 
 
-if __name__ == '__main__':
-    
-    main()
+
   
