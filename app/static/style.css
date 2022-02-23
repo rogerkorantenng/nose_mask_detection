@@ -1,0 +1,424 @@
+*{
+
+    font-family: calibri Light;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+
+	margin-top: 0;
+	padding: 0px;
+	height: 30px;
+
+}
+
+.active{
+	border:1px solid rgb(175,126,106);
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+
+#content1{
+	min-height: 300px;
+	margin: 0;
+	margin-bottom: 100px;
+
+}
+img{
+	float: right;
+	height: 470px;
+    width: 800px;
+	margin-top: 35px;
+}
+/* #img1{
+    float: right;
+
+} */
+
+
+.content1-context h1 {
+
+    color: black;
+	font-size: 24px;
+	margin-bottom: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 40px;
+    font-weight: 600;
+    letter-spacing:-3px;
+    margin-bottom: 30px;  
+    line-height: 102px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */
+	
+
+}
+
+
+.content1-context p{
+    color: rgb(59, 57, 57);
+	font-size: 10px;
+	font-family: calibri Light;
+	font-size: 1.0rem;
+    color: black;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    display: block;
+    object-fit: cover;
+	
+}
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap; }
+  .libraries {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.0rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+     }
+    
+.libraries-heading {
+      font-weight: 700;
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    line-height: 102px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */  
+
+
+}
+#explore-btn{
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+	background-color: blue;
+	font-size: 18px;
+	border-radius: 13px;
+	margin-top: 15px;
+	/* margin-left: 250px; */
+}
+
+.button {
+  
+  background-color: rgb(59, 57, 57);
+  color: black;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  transition: .3s;
+}
+.button:hover {
+  box-shadow: 0px 5px 16px rgba(20, 0, 0, 0.15);
+  
+}
+
+
+.contact {
+	 font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    line-height: 102px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */
+
+
+}
+
+.contact-me {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.0rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+     }
+
+.contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 0.5rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+}
+
+ .contact__form {
+    width: 160px;
+    padding-top: 2rem;
+  }
+  .contact__container {
+    justify-items: center;
+  }
+
+
+#sample-pic{
+	height: 200px;
+	width: 500px;
+	margin-right: 270px;
+}
+
+
+
+}
+.serv1{
+	/* height: 00px;	 */
+	width: 100%;
+	display: inline-block;
+	padding: 0px;
+	height: 300px;
+	margin-bottom: 10px;
+	animation: sliding 3s ease-in-out 1;
+}
+
+.img-serv{
+	height: 300px;
+	width: 500px;
+	float: right;
+	box-sizing: border-box;
+
+}
+
+ @keyframes sliding {
+  0%{
+      transform: translateX(0px);
+  }
+  25%{
+      transform: translateX(30px);
+
+  }
+  75%{
+      transform: translateX(50px);
+  }
+  100%{
+      transform: translateX(0px);
+  }
+
+}
+.serv1-content{
+	
+	width: 40%;
+	float: left;
+	margin-left: 50px;
+	height: 350px;
+	margin-top:70px;
+
+}
+.serv1-content h2{
+	margin-bottom: 10px;
+
+}
+.serv1-content p{
+	color: rgb(59, 57, 57);
+	font-size: 18px;
+
+}
+
+.btn-serv{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	font-size: 18px;
+	border-radius: 13px;
+	margin-top: 15px;	
+	margin-top: 20px;
+
+}
+.tn-serv:hover{
+	background-color: rgba(250,151,70,255);
+}
+
+
+
+.img-case{
+	height: 200px;
+	width: 300px;
+	margin-bottom: 25px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+
+}
+.box{
+	width: 25%;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 55px;
+	margin-left: 30px;
+}
+
+.box h2{
+	margin-bottom: 8px;
+	color: black;
+	font-size: 30px;
+	
+}
+.box p{
+	line-height: 1.8em;
+	font-size: 15px;
+	color: black;
+}
+
+
+
+
+
+.uploadPicture_content{
+	height:100vh;
+}
+.animation_content{
+	/* background-color:red; */
+	display: inline-block;
+	margin-left: 70px;
+	height: 550px;
+	width: 80%;
+}
+.animation-areaLeft{
+	width: 40%;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 50px;
+	padding-left:15px;
+	
+}
+.animation-areaRight{
+	width: 40%;
+	float: right;
+	box-sizing: border-box;
+
+}
+#anime-h1{
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 40px;
+    font-weight: 600;
+    letter-spacing:-3px;
+    margin-bottom: 30px;  
+    line-height: 102px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */
+}
+.anime-h3{
+	color: black;
+	font-size: 30px;
+    font-weight: 600;
+    letter-spacing:-3px;
+    margin-bottom: 30px;  
+    line-height: 102px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */
+}
+#pics{
+	height: 400px;
+	width: 550px;
+}
+.error_content{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+width: 100%;
+bottom: 0;
+background:  #593dd5;
+min-height: 100px;
+padding-top: 44px;
+color: #919191;
+font-size: 13px;
+position: relative;
+z-index: 1;
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */
+
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background:  #593dd5;
+    min-height: 100px;
+    padding-top: 44px;
+    color: #919191;
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(left, #593dd5, #fc2b00); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #593dd5, #fc2b00); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #593dd5, #fc2b00); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #593dd5, #fc2b00); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #593dd5, #fc2b00); /* Standard syntax; must be last */
+}
+body {
+	background-color: lightgrey;
+}
+.copyright{
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
