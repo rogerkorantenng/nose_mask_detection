@@ -158,7 +158,7 @@ test_loss,test_accuracy = model.evaluate_generator(test_generator)
 print('test_loss: ',test_loss)
 print('test_accuracy: ',test_accuracy)
 
-model.save('./roger.h5')
+model.save('./aws_dl1_model.h5')
 
 #from google.colab import drive
 #drive.mount('/content/drive')
