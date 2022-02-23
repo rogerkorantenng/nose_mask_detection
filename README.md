@@ -59,7 +59,9 @@ Next, you can then install the required python libraries using pip
 
 pip3 install -r install requirements.txt
 
+# Run our model_training.py file to start training
 
+python3 model_training.py
 
 # Download data via
 
