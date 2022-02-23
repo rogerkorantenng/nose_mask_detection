@@ -6,26 +6,26 @@ Lunch your dl1 instance
 
 Access your ec2 instance via ssh
 
-Once you are logged in check the habana developer page for more documentation
+Once you are logged in check the habana developer page for more documentation https://developer.habana.ai
 
 # Download and Install docker(ubuntu18.04)
-Run the following code to download
+Run the following code to download docker image
 
 docker pull vault.habana.ai/gaudi-docker/1.3.0/ubuntu18.04/habanalabs/tensorflow-installer-tf-cpu-2.7.1:1
 
-Run the following code to install docker
+Run the following code to install docker docker image
 
 docker run -it --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none --cap-add=sys_nice -v /sys/kernel/debug:/sys/kernel/debug -v /data:/data -v /opt/habanalabs/ocpl.json:/opt/habanalabs/optl.json --net=host vault.habana.ai/gaudi-docker/1.3.0/ubuntu18.04/habanalabs/tensorflow-installer-tf-cpu-2.7.1:1.3.0-499
 
-We downloaded and installed docker for ubuntu version 18.04 and tensorflow version 2.7.1
+We downloaded and installed docker image for ubuntu version 18.04 and tensorflow version 2.7.1
 
 # Install requisite python libraries(gdown and unzip)
 
-Gdown
+Gdown - to download dataset from google drive
 
 pip3 install gdown
 
-Unzip
+Unzip - to unzip dataset 
 
 pip3 install unzip
 
