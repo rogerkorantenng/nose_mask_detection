@@ -28,6 +28,10 @@ pip3 install gdown
 Unzip
 
 pip3 install unzip
+
+# Clone github reposetories
+
+git clone 
 # Download data via
 
 https://drive.google.com/file/d/1TEv3o58BZG78QKQWXWkctl1On9lnDT2k/view?usp=sharing
