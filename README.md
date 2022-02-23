@@ -29,9 +29,38 @@ Unzip
 
 pip3 install unzip
 
-# Clone github reposetories
+# Clone github reposetory
 
-git clone 
+git clone https://github.com/rogerkorantenng/noise_mask_detection.git
+
+# Export python and habana json
+
+export PYTHONPATH=/noise_mask_detection:$PYTHONPATH
+
+export HCL_CONFIG_PATH=/opt/habanalabs/ocpl.json
+
+# Download dataset and unzip
+
+Before downloading dataset, move to the working directory (noise_mask_detection)
+
+cd moise_mask_detection
+
+We can then download our dataset
+
+gdown --id 1TEv3o58BZG78QKQWXWkctl1On9lnDT2k
+
+Next you can unzip archive
+
+unzip dataset.zip
+
+# Install required python libraries
+
+Next, you can then install the required python libraries using pip
+
+pip3 install -r install requirements.txt
+
+
+
 # Download data via
 
 https://drive.google.com/file/d/1TEv3o58BZG78QKQWXWkctl1On9lnDT2k/view?usp=sharing
