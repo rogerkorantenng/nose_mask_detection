@@ -13,7 +13,7 @@ Run the following code to download docker image
 
 docker pull vault.habana.ai/gaudi-docker/1.3.0/ubuntu18.04/habanalabs/tensorflow-installer-tf-cpu-2.7.1:1
 
-Run the following code to install docker docker image
+Run the following code to install docker image
 
 docker run -it --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none --cap-add=sys_nice -v /sys/kernel/debug:/sys/kernel/debug -v /data:/data -v /opt/habanalabs/ocpl.json:/opt/habanalabs/optl.json --net=host vault.habana.ai/gaudi-docker/1.3.0/ubuntu18.04/habanalabs/tensorflow-installer-tf-cpu-2.7.1:1.3.0-499
 
@@ -43,7 +43,7 @@ export HCL_CONFIG_PATH=/opt/habanalabs/ocpl.json
 
 Before downloading dataset, move to the working directory (noise_mask_detection)
 
-cd moise_mask_detection
+cd noise_mask_detection
 
 We can then download our dataset
 
@@ -63,9 +63,5 @@ pip3 install -r install requirements.txt
 
 python3 model_training.py
 
-# Download data via
-
-https://drive.google.com/file/d/1TEv3o58BZG78QKQWXWkctl1On9lnDT2k/view?usp=sharing
-
-After successfully downloading dataset we can now unzip and extract by using unzip data.zip
+After sometime when training is done, your .h5 and .json file should be available for you.
   
