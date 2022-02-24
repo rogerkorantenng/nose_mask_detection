@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 
 # Loading the Model
-model = load_model('roger.h5')
+model = load_model('aws_dl1_model.h5')
 
 # Loading the classifier from the file.
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
