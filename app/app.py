@@ -2,14 +2,14 @@ import os
 from werkzeug.utils import secure_filename
 from urllib.request import Request
 from flask import Flask, render_template, Response, request, redirect, flash
-#from Myfunctions import *
+from Myfunctions import *
 import urllib
 import secrets
-#import cv2
+import cv2
 
 secret = secrets.token_urlsafe(32)
-UPLOAD_FOLDER = 'static/'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
+#UPLOAD_FOLDER = 'static/'
+#ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 app = Flask(__name__)
 app.secret_key = secret
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
