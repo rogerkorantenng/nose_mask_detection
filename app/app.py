@@ -5,7 +5,7 @@ from flask import Flask, render_template, Response, request, redirect, flash
 #from Myfunctions import *
 import urllib
 import secrets
-import cv2
+#import cv2
 
 secret = secrets.token_urlsafe(32)
 UPLOAD_FOLDER = 'static/'
