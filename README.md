@@ -1,4 +1,4 @@
-# Nosie Mask Detection
+# Nose Mask Detection
 This model was trained on aws dl1 ec2 instance
 
 # Access your VM
