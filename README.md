@@ -1,6 +1,14 @@
 # Nose Mask Detection
 This model was trained on aws dl1 ec2 instance
 
+# Directories
+
+The app folder contains the flask app am currently building
+
+The model_training.py file contains our model training code
+
+The requirements.txt file contains all the neccessary python libraries needed for our code to run
+
 # Access your VM
 Lunch your dl1 instance
 
