@@ -160,7 +160,7 @@ print('test_accuracy: ',test_accuracy)
 
 model.save('./aws_dl1_model.h5')
 
-#from google.colab import drive
+#import drive
 #drive.mount('/content/drive')
 
 #!cp roger.h5 ./drive/MyDrive/roger.h5
