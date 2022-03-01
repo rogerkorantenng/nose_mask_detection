@@ -1,5 +1,5 @@
 # Nose Mask Detection
-This model was trained on aws dl1 ec2 instance
+This model was trained on Aws dl1 ec2 instance powered by Gaudi Accelerators
 
 # Directories
 
@@ -12,14 +12,16 @@ The requirements.txt file contains all the neccessary python libraries needed fo
 # Access your VM
 Lunch your dl1 instance
 
-Access your ec2 instance via ssh
+Access your ec2 instance via ssh e.g Putty
 
-Once you are logged in check the habana developer page for more documentation https://developer.habana.ai
+Once you are logged in, check the habana developer page for more documentation https://developer.habana.ai
 
-# Download and Install docker(ubuntu18.04)
+# Download and Install docker image for (Ubuntu 18.04 & tensorflow v2.7.1)
 Run the following code to download docker image
 
 docker pull vault.habana.ai/gaudi-docker/1.3.0/ubuntu18.04/habanalabs/tensorflow-installer-tf-cpu-2.7.1:1
+
+Once downloading has finished, we can then run our docker image to start a secure shell
 
 Run the following code to install docker image
 
@@ -27,13 +29,13 @@ docker run -it --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_va
 
 We downloaded and installed docker image for ubuntu version 18.04 and tensorflow version 2.7.1
 
-# Install requisite python libraries(gdown and unzip)
+# Install some python libraries(gdown and unzip)
 
-Gdown - to download dataset from google drive
+Gdown - will be used to download dataset from google drive
 
 pip3 install gdown
 
-Unzip - to unzip dataset 
+Unzip - will be used to unzip and extract dataset
 
 pip3 install unzip
 
@@ -41,7 +43,7 @@ pip3 install unzip
 
 git clone https://github.com/rogerkorantenng/noise_mask_detection.git
 
-# Export python and habana json
+# Export python path and habana json file
 
 export PYTHONPATH=/noise_mask_detection:$PYTHONPATH
 
