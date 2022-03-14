@@ -51,7 +51,7 @@ export HCL_CONFIG_PATH=/opt/habanalabs/ocpl.json
 
 # Download dataset and unzip
 
-Before downloading dataset, move to the working directory (noise_mask_detection)
+Before downloading dataset, move to the working directory (nose_mask_detection)
 
 cd noise_mask_detection
 
