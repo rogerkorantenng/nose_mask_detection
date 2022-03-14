@@ -41,11 +41,11 @@ pip3 install unzip
 
 # Clone github reposetory
 
-git clone https://github.com/rogerkorantenng/noise_mask_detection.git
+git clone https://github.com/rogerkorantenng/nose_mask_detection.git
 
 # Export python path and habana json file
 
-export PYTHONPATH=/noise_mask_detection:$PYTHONPATH
+export PYTHONPATH=/nose_mask_detection:$PYTHONPATH
 
 export HCL_CONFIG_PATH=/opt/habanalabs/ocpl.json
 
