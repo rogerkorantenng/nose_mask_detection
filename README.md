@@ -20,6 +20,7 @@ Once you are logged in, check the habana developer page for more documentation h
 Run the following code to download docker image
 
 docker pull vault.habana.ai/gaudi-docker/1.3.0/ubuntu18.04/habanalabs/tensorflow-installer-tf-cpu-2.7.1:1.3.0-499
+
 Once downloading has finished, we can then run our docker image to start a secure shell
 
 Run the following code to install docker image
